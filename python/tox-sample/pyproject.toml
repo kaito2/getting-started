@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "tox_sample"
+version = "0.1.0"
+description = ""
+authors = ["kaito2 <kaito.iwatsuki@nislab.doshisha.ac.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.15.2"
+pytest = "^5.4.3"
+flake8 = "^3.8.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
