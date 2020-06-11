@@ -12,6 +12,8 @@
 
 `.env` に設定する値は [oauth2_proxy と Auth0 を用いた Nginx のお手軽 OAuth 化 · Yutaka 🍊 Kato](https://mikan.github.io/2018/05/23/enable-oauth-to-your-nginx-by-oauth2-proxy-and-auth0/) を参照されたし。
 
+(docker compose の `.env` ファイルについて: [Environment variables in Compose \| Docker Documentation](https://docs.docker.com/compose/environment-variables/#the-env-file))
+
 ```
 cp .env.sample .env
 # edit .env
