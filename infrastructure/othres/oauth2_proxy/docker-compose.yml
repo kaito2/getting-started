@@ -5,7 +5,7 @@ services:
     command: >
       '--http-address=0.0.0.0:4180'
       '--provider=oidc'
-      '--redirect-url=https://kaito2.example.com/oauth2/callback'
+      '--redirect-url=http://localhost/oauth2/callback'
       '--cookie-secret=secret'
       '--cookie-secure=false'
       '--email-domain=["kaito2.example.com"]'
