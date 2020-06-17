@@ -1,4 +1,4 @@
-# [name]
+# Kong
 
 Git Repository: [GitHub - Kong/kong: 🦍 The Cloud-Native API Gateway](https://github.com/kong/kong)
 Getting Started:
