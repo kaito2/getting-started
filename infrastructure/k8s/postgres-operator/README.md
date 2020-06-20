@@ -1,4 +1,4 @@
-# [name]
+# postgres-operator
 
 Git Repository: [GitHub - zalando/postgres-operator: Postgres operator creates and manages PostgreSQL clusters running in Kubernetes](https://github.com/zalando/postgres-operator)
 Getting Started: [postgres-operator/quickstart.md at master · zalando/postgres-operator · GitHub](https://github.com/zalando/postgres-operator/blob/master/docs/quickstart.md)
