@@ -1,0 +1,14 @@
+user: dev-user
+pass: ENC[AES256_GCM,data:Sy/yZHWGWlY=,iv:sz+8eVn7vOS+2/yasXHSQ8DhGvlOKsYKxu5dAHYN3gg=,tag:5NNIAfKS4Dvev6YYmHdLZQ==,type:str]
+sops:
+    kms: []
+    gcp_kms:
+    -   resource_id: projects/kaito2/locations/asia-northeast1/keyRings/sops-key-ring/cryptoKeys/sops-crypto-key
+        created_at: '2020-07-13T11:58:10Z'
+        enc: CiQAIyu+rFqvUd7pM5Ws3hR1O3JT/4Hlr99ig8fn1oFiYxxo7rgSSQCqguh3DwAIZ7m1D7rhJRTh4J7ODBmPdpQNGTcRsL4QgfcBFW8DXjA8jIEIX+OCP+7M+orEOWjvt+ILHMyLYkOuqACaUiws7tg=
+    azure_kv: []
+    lastmodified: '2020-07-13T11:58:10Z'
+    mac: ENC[AES256_GCM,data:rWJnP8AVecGqbQ5BvTQ9un1ubwv1Z0IROz1EHcl8f9nmUBK3k/089Ixw3g2IQWwnGaXJ7mJFIAB9aEvy5v85g+3ZIvRsPK/J1wwxMAknXX6bmtjnIBaoi3HXUuKYri412nXFS2UNxNgIJAZdUu30QlOj6qpCCGSUV9JaX4LK8RM=,iv:NWWLEAtotNxi2EjxewNVD+gqyBoVxz5PTuieq99Y9rc=,tag:ljQL/7uCuY2TyiDadiD4yw==,type:str]
+    pgp: []
+    encrypted_regex: pass
+    version: 3.5.0
