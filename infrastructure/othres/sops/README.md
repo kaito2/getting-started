@@ -51,7 +51,7 @@ pass: dev-pass
 参考: [Google: google_kms_secret - Terraform by HashiCorp](https://www.terraform.io/docs/providers/google/d/kms_secret.html)
 
 - 簡単化のために
-  - 3環境用のモジュール化は見逃してください…
+  - 3環境用のモジュール化は見逃してください…(devだけ動かします。)
   - remote state は見逃してください…
 
 ```
@@ -212,4 +212,18 @@ sops:
 
 ```
 $ sops -e -i dev.yaml
+# dev.yaml が書き換わっている
 ```
+
+復号する場合は以下のコマンドを実行します。
+
+```
+sops -d -i dev.yaml
+```
+
+なので CI などでは `config/` ディレクトリに移動し、上記のコマンドを実行すれば、必要な鍵を利用する権限があるかチェックされます。そして、権限がある場合は復号が実行されます。
+
+[carlpett/terraform-provider-sops](https://github.com/carlpett/terraform-provider-sops) なども便利そうなので試してみたいです…
+
+実際にデプロイする流れはまた次回書きます。
+
